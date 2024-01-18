@@ -38,10 +38,10 @@ public class PenjualanBensin {
             }
         }
 
-            System.out.println("Sisa Pertalite = " + PenjualanPertalite.stream().mapToInt(i -> i).sum());
-            System.out.println("Sisa Pertamax =" + PenjualanPertamax.stream().mapToInt(i -> i).sum());
-            System.out.println("Sisa Pertamax Turbo =" + PenjualanPertamaxTurbo.stream().mapToInt(i -> i).sum());
-            System.out.println("Sisa Pertadex =" + PenjualanPertadex.stream().mapToInt(i -> i).sum());
+            System.out.println("Total Penjualan Pertalite = " + PenjualanPertalite.stream().mapToInt(i -> i).sum());
+            System.out.println("Total Penjualan Pertamax =" + PenjualanPertamax.stream().mapToInt(i -> i).sum());
+            System.out.println("Total Penjualan Pertamax Turbo =" + PenjualanPertamaxTurbo.stream().mapToInt(i -> i).sum());
+            System.out.println("Total Penjualan Pertadex =" + PenjualanPertadex.stream().mapToInt(i -> i).sum());
 
     }
 }
